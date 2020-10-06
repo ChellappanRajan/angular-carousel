@@ -1,0 +1,7 @@
+<div class="wrapper" #wrapper>
+  <button [disabled]="!showPrevArrow" (click)="onPrevious()" class="arrow left-arrow">Left</button>
+  <div class="container">
+    <ng-content></ng-content>
+  </div>
+  <button [disabled]="!disableNext"  (click)="onNext()" class="arrow right-arrow">Right</button>
+</div>

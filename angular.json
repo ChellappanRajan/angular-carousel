@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-carousel"
+    }
+  },
+  "defaultProject": "ng-carousel",
+  "cli": {
+    "analytics": false
+  }
 }
